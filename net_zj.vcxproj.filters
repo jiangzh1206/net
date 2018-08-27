@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="TCPServer.h" />
+    <ClInclude Include="NonCopyable.h" />
+    <ClInclude Include="EventLoop.h" />
+    <ClInclude Include="CurrentThread.h" />
+    <ClInclude Include="channel.h" />
+    <ClInclude Include="DataSocket.h" />
+    <ClInclude Include="Socket.h" />
+    <ClInclude Include="SocketLibTypes.h" />
+    <ClInclude Include="SocketLibFunction.h" />
+    <ClInclude Include="buffer.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>timer</Filter>
+    </ClInclude>
+    <ClInclude Include="ListenThread.h" />
+    <ClInclude Include="Connector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TCPServer.cpp" />
+    <ClCompile Include="EventLoop.cpp" />
+    <ClCompile Include="CurrentThread.cpp" />
+    <ClCompile Include="DataSocket.cpp" />
+    <ClCompile Include="Socket.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="SocketLibFunction.cpp" />
+    <ClCompile Include="buffer.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>timer</Filter>
+    </ClCompile>
+    <ClCompile Include="ListenThread.cpp" />
+    <ClCompile Include="Connector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{f9c22916-b863-4e92-bd07-5ea8873e91f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="timer">
+      <UniqueIdentifier>{93375d75-8c8b-4dbd-92bd-c3baf8ecc2cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
